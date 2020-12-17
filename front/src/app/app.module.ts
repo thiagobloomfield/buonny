@@ -12,6 +12,7 @@ import { OrdersComponent } from './orders/orders.component';
 import { ModalConfirmationComponent } from './modal-confirmation/modal-confirmation.component';
 import { ModalProductManagementComponent } from './modal-product-management/modal-product-management.component';
 import { ModalCustomerManagementComponent } from './modal-customer-management/modal-customer-management.component';
+import { CurtomersComponent } from './curtomers/curtomers.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ModalCustomerManagementComponent } from './modal-customer-management/mo
     OrdersComponent,
     ModalConfirmationComponent,
     ModalProductManagementComponent,
-    ModalCustomerManagementComponent
+    ModalCustomerManagementComponent,
+    CurtomersComponent
   ],
   imports: [
     BrowserModule,
