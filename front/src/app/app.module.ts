@@ -13,6 +13,7 @@ import { ModalConfirmationComponent } from './modal-confirmation/modal-confirmat
 import { ModalProductManagementComponent } from './modal-product-management/modal-product-management.component';
 import { ModalCustomerManagementComponent } from './modal-customer-management/modal-customer-management.component';
 import { CurtomersComponent } from './curtomers/curtomers.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CurtomersComponent } from './curtomers/curtomers.component';
     ModalConfirmationComponent,
     ModalProductManagementComponent,
     ModalCustomerManagementComponent,
-    CurtomersComponent
+    CurtomersComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
