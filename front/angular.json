@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "buonny"
+  "defaultProject": "buonny",
+  "cli": {
+    "analytics": "a8ec1712-ef1a-46fb-88fc-b7bc8a8273eb"
+  }
 }
