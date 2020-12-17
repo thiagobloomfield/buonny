@@ -14,6 +14,7 @@ import { ModalProductManagementComponent } from './modal-product-management/moda
 import { ModalCustomerManagementComponent } from './modal-customer-management/modal-customer-management.component';
 import { CurtomersComponent } from './curtomers/curtomers.component';
 import { ProductsComponent } from './products/products.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ProductsComponent } from './products/products.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
